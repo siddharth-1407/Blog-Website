@@ -1,0 +1,43 @@
+.projectCard{
+	transform: translateY(1.75rem);
+}
+.projectCard:nth-of-type(4n + 2),
+.projectCard:nth-of-type(4n + 3) {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 1/1;
+	align-items: center;
+}
+.projectCard:nth-of-type(4n + 2) article,
+.projectCard:nth-of-type(4n + 3) article {
+	width: 100%;
+	/* aspect-ratio: 1/1; */
+}
+.projectCard:nth-of-type(4n + 2) img,
+.projectCard:nth-of-type(4n + 3) img {
+	aspect-ratio: 1/1;
+	object-fit: cover;
+}
+
+@media only screen and (width <= 625px) {
+	.projectCard{
+		transform: translateY(0);
+	}
+	.projectCard,
+	.projectCard {
+		width: 100%;
+		aspect-ratio: 1/1;
+	}
+
+	.projectCard article,
+	.projectCard article {
+		width: 100%;
+		/* aspect-ratio: 1/1; */
+	}
+
+	.projectCard img,
+	.projectCard img {
+		aspect-ratio: 1/1;
+		object-fit: cover;
+	}
+}
