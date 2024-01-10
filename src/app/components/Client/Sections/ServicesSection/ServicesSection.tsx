@@ -5,9 +5,6 @@ import React, { useState } from 'react';
 import { motion, easeInOut } from 'framer-motion';
 import { services } from '@/Lib/Services/services';
 
-const ServicesSection = () => {
-	const [activeService, setActiveService] = useState(0);
-
 	const servicesAnim = {
 		initial: {
 			opacity: 0,
@@ -44,6 +41,9 @@ const ServicesSection = () => {
 			},
 		},
 	};
+
+const ServicesSection = () => {
+	const [activeService, setActiveService] = useState(0);
 
 	return (
 		<section
@@ -100,7 +100,7 @@ const ServicesSection = () => {
 												src={service.img}
 												placeholder='blur'
 												fill={true}
-												sizes='(max-width: 768px) 50vw, (max-width: 1200px) 50vw, 40vw'
+												sizes='(max-width: 768px) 90vw, (max-width: 1200px) 50vw, 40vw'
 												alt='image'
 											/>
 										</div>

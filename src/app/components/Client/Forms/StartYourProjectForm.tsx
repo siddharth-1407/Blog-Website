@@ -10,7 +10,7 @@ type FormData = {
 	email: string;
 	mobileNumber: string;
 	message: string;
-	shouldReceiveMails: boolean;
+	shouldReceiveMails: string;
 };
 const initialValues: FormData = {
 	firstName: '',
@@ -18,7 +18,7 @@ const initialValues: FormData = {
 	email: '',
 	message: '',
 	mobileNumber: '',
-	shouldReceiveMails: false,
+	shouldReceiveMails: 'false',
 };
 
 const sendProjectQuery = async (values: FormData) => {
@@ -172,7 +172,8 @@ export default function StartYourProjectForm() {
 						name='shouldReceiveMails'
 						id='shouldReceiveMails'
 						className='translate-y-1 sm:translate-y-0 appearance-none w-[20px] aspect-square border border-black rounded-full checked:bg-ThemePrimary transition-colors'
-						value={values.shouldReceiveMails ? JSON.parse('true') : JSON.parse('false')}
+						value={values.shouldReceiveMails}
+						onChange={handleChange}
 					/>
 					<label htmlFor='shouldReceiveMails' className='select-none text-sm font-light tracking-wide'>
 						I'm happy to receive a seriously cool monthly newsletter from KOTA.

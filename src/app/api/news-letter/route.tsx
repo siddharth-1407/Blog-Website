@@ -16,7 +16,6 @@ export async function POST(req: NextRequest) {
 		if (subscriber) {
 			return NextResponse.json({ success: false, message: 'Sub already exist' }, { status: 409 });
 		}
-		console.log('awd');
 		await NewsLetterSub.create({ email });
 		return NextResponse.json({ success: true, message: 'Subscription done!' }, { status: 201 });
 	} catch (error) {

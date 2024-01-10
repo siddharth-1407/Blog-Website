@@ -3,15 +3,15 @@ import Image from 'next/image';
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import Image1 from '../../../../.././public/image1.jpg';
-import Image2 from '../../../../.././public/image2.jpg';
-import Image3 from '../../../../.././public/image3.jpg';
+import Planning_Image from '/public/Home/planing.png';
+import Execute_Image from '/public/Home/execute.png';
+import Impact_Image from '/public/Home/impact3.png';
+// import Image1 from '/public/Home/image1.jpg';
+// import Execute_Image from '/public/Home/Execute_Image.jpg';
+// import Impact_Image from '/public/Home/Impact_Image.jpg';
 
 const Section3 = () => {
 	const wrapper = useRef<HTMLDivElement>(null);
-	const section1 = useRef<HTMLDivElement>(null);
-	const section2 = useRef<HTMLDivElement>(null);
-	const section3 = useRef<HTMLDivElement>(null);
 	const ImageContainer = useRef<HTMLDivElement>(null);
 	useEffect(() => {
 		const photos = gsap.utils.toArray('.photo');
@@ -25,7 +25,7 @@ const Section3 = () => {
 		gsap.registerPlugin(ScrollTrigger);
 		ScrollTrigger.create({
 			trigger: wrapper.current,
-			start: 'top 10%',
+			start: 'top 15%',
 			end: '90% bottom',
 			animation: animation,
 			scrub: true,
@@ -45,7 +45,7 @@ const Section3 = () => {
 			</h3>
 			<div ref={wrapper} className='flex md:mx-auto md:px-16 5xl:px-44'>
 				<div className='lg:w-[45%] flex flex-col gap-12'>
-					<div ref={section1} className='flex flex-col gap-4 lg:min-h-[85vh] md:justify-center'>
+					<div className='flex flex-col gap-4 lg:min-h-[85vh] md:justify-center'>
 						<div className=' flex flex-col gap-6 px-6 '>
 							<h4 className='text-ThemeSecondary text-4xl 5xl:text-6xl font-extrabold relative before:absolute before:top-[6px] before:-left-4 before:content-["01"] before:text-[0.6rem] sm:before:text-[0.7rem] sm:before:-left-5 5xl:before:text-base 5xl:before:top-0 5xl:before:-left-7 before:w-4 before:h-4 before:leading-none before:text-ThemePrimary sm:text-5xl'>
 								Beauty
@@ -56,11 +56,11 @@ const Section3 = () => {
 						</div>
 						<div className=' lg:hidden px-6'>
 							<div className='relative max-w-lg  rounded-xl overflow-hidden h-full '>
-								<Image src={Image1} placeholder='blur' width={512} height={512} alt='image' />
+								<Image src={Planning_Image} placeholder='blur' width={512} height={512} alt='image' />
 							</div>
 						</div>
 					</div>
-					<div ref={section2} className='flex flex-col gap-4 lg:min-h-[85vh] md:justify-center'>
+					<div className='flex flex-col gap-4 lg:min-h-[85vh] md:justify-center'>
 						<div className='flex flex-col gap-6 px-6 '>
 							<h4 className='text-ThemeSecondary text-4xl 5xl:text-6xl font-extrabold relative before:absolute before:top-[6px] before:-left-4 before:content-["02"] before:text-[0.6rem] sm:before:text-[0.7rem] sm:before:-left-5 5xl:before:text-base 5xl:before:top-0 5xl:before:-left-7 before:w-4 before:h-4 before:leading-none before:text-ThemePrimary sm:text-5xl'>
 								Thought
@@ -72,11 +72,11 @@ const Section3 = () => {
 						</div>
 						<div className=' lg:hidden px-6'>
 							<div className='relative max-w-lg rounded-xl overflow-hidden h-full '>
-								<Image src={Image2} placeholder='blur' width={512} height={512} alt='image' />
+								<Image src={Execute_Image} placeholder='blur' width={512} height={512} alt='image' />
 							</div>
 						</div>
 					</div>
-					<div ref={section3} className='flex flex-col gap-4 lg:min-h-[90vh] md:justify-center'>
+					<div className='flex flex-col gap-4 lg:min-h-[90vh] md:justify-center'>
 						<div className='flex flex-col gap-6 px-6 '>
 							<h4 className='text-ThemeSecondary text-4xl 5xl:text-6xl font-extrabold relative before:absolute before:top-[6px] before:-left-4 before:content-["03"] before:text-[0.6rem] sm:before:text-[0.7rem] sm:before:-left-5 5xl:before:text-base 5xl:before:top-0 5xl:before:-left-7 before:w-4 before:h-4 before:leading-none before:text-ThemePrimary sm:text-5xl'>
 								Impact
@@ -87,7 +87,7 @@ const Section3 = () => {
 						</div>
 						<div className=' lg:hidden px-6'>
 							<div className='relative max-w-lg rounded-xl overflow-hidden h-full '>
-								<Image src={Image3} placeholder='blur' width={512} height={512} alt='image' />
+								<Image src={Impact_Image} placeholder='blur' width={512} height={512} alt='image' />
 							</div>
 						</div>
 					</div>
@@ -96,7 +96,7 @@ const Section3 = () => {
 					<div ref={ImageContainer} className='min-h-[85vh] flex  items-center '>
 						<div className='relative w-full aspect-[1.59997258414]  '>
 							<Image
-								src={Image1}
+								src={Planning_Image}
 								placeholder='blur'
 								width={850}
 								height={512}
@@ -104,7 +104,7 @@ const Section3 = () => {
 								className='photo rounded-3xl  absolute w-full h-full '
 							/>
 							<Image
-								src={Image2}
+								src={Execute_Image}
 								placeholder='blur'
 								width={850}
 								height={512}
@@ -112,7 +112,7 @@ const Section3 = () => {
 								className='photo rounded-3xl absolute w-full h-full '
 							/>
 							<Image
-								src={Image3}
+								src={Impact_Image}
 								placeholder='blur'
 								width={850}
 								height={512}

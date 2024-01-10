@@ -13,7 +13,16 @@ const Section1 = () => {
 	const ImagecontainerRight = useRef<HTMLDivElement>(null);
 	const wrapper = useRef<HTMLDivElement>(null);
 	const container = useRef<HTMLDivElement>(null);
-
+	const createAnimation = () => {
+		gsap.to(refs.current, {
+			opacity: 1,
+			stagger: 0.2,
+			scrollTrigger: {
+				trigger: container.current,
+				start: 'top 50%',
+			},
+		});
+	};
 	useEffect(() => {
 		const body = document.querySelector('body');
 
@@ -28,16 +37,7 @@ const Section1 = () => {
 			},
 		});
 	}, []);
-	const createAnimation = () => {
-		gsap.to(refs.current, {
-			opacity: 1,
-			stagger: 0.2,
-			scrollTrigger: {
-				trigger: container.current,
-				start: 'top 50%',
-			},
-		});
-	};
+
 	useEffect(() => {
 		gsap.registerPlugin(ScrollTrigger);
 		createAnimation();
