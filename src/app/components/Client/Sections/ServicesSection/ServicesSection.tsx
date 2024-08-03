@@ -47,8 +47,13 @@ const ServicesSection = () => {
 
 	return (
 		<section
+		id='services'
 			aria-live='polite'
-			className='min-h-screen bg-gradient-to-tr from-ThemePrimary to-[#0dcfd0]/50 via-[#8989e7] relative before:absolute before:top-0 before:left-0 before:inset-0 before:bg-gradient-conic before:from-[#0dcfd0] before:to-[#8989e7]/20 before:via-transparent after:absolute after:top-0 after:left-0 after:inset-0 after:bg-gradient-to-bl after:from-[#0dcfd0]/50 after:to-ThemePrimary after:via-[#8989e7] md:min-h-fit lg:min-h-screen 5xl:py-12'>
+			className='min-h-screen bg-gradient-to-tr from-ThemeGradientFrom to-ThemeGradientTo/50 via-ThemeGradientVia 
+			relative before:absolute before:top-0 before:left-0 
+			before:inset-0 before:bg-gradient-conic before:from-ThemeGradientTo before:to-ThemeGradientVia/20 before:via-transparent 
+			after:absolute after:top-0 after:left-0 after:inset-0 after:bg-gradient-to-bl after:from-ThemeGradientTo/50 
+			after:to-ThemeGradientFrom after:via-ThemeGradientVia md:min-h-fit lg:min-h-screen 5xl:py-12'>
 			<motion.div
 				whileInView={'start'}
 				viewport={{ once: true }}
@@ -75,11 +80,11 @@ const ServicesSection = () => {
 									</button>
 								);
 							})}
-							<Link
+							{/*<Link
 								href={'/services'}
 								className='hidden md:flex w-fit px-10 py-5 md:px-6 md:py-3 lg:px-8 lg:py-4 lg:top-6 5xl:top-12 relative self-start uppercase font-semibold tracking-widest text-white text-base rounded-full border-2 border-white hover:text-ThemePrimary hover:bg-white transition-colors focus-visible:outline-none focus-visible:text-ThemePrimary focus-visible:bg-white'>
 								view all services
-							</Link>
+								</Link>*/}
 						</div>
 						<div></div>
 					</div>

@@ -25,7 +25,7 @@ export default function Carousel({ ImageArray }: { ImageArray: WorkSliderImage[]
 					{ImageArray.map((img) => {
 						return (
 							<React.Fragment key={img.id}>
-								<SwiperSlide className='bg-blue-400'>
+								<SwiperSlide>
 									<Image
 										src={img.src}
 										fill

@@ -24,12 +24,14 @@ const Section2 = () => {
 			<div className='flex-1 '>
 				<div className='mt-8 mb-12 px-6 sm:pl-16 sm:pr-12 sm:mt-16 md:mb-0 md:mt-0 5xl:pl-28 h-full flex flex-col justify-center gap-6 '>
 					<h2 className='text-ThemeSecondary font-bold text-4xl max-w-xs sm:text-5xl sm:max-w-md md:text-[2.5rem] lg:text-5xl 5xl:max-w-3xl 5xl:text-7xl'>
-						Making brands a damn site better
+					Dream. Achieve. Prevail.
 					</h2>
 					<p
 						className={`${quicksand.className} text-ThemeSecondary font-medium text-base leading-[1.8] lg:leading-[1.8] 5xl:leading-[1.8] lg:text-lg max-w-[47rem] 5xl:text-xl 5xl:font-semibold`}>
-						Let’s face it, first impressions matter. Your website’s an opportunity to wow your audience, so why waste it with bad design?
-						Because brands win new fans when they’re brave enough to go beyond their creative comfort zone.
+						In the dynamic landscape of web development, game development, and interior design, 
+						our agency thrives on problem-solving. We revamp online presence, 
+						enhancing gaming experiences, and reshape interiors, providing clients with tailored solutions 
+						that redefine their digital and physical environments.
 					</p>
 				</div>
 			</div>

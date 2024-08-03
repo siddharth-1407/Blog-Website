@@ -7,21 +7,21 @@ import InteriorDesign_Image from '/public/services/interior-design.png';
 
 const services = [
 	{
-		title: 'Development & UI/UX Design',
+		title: 'Web Development & Design',
 		img: UI_Image,
-		text: 'Crafting responsive, search engine-friendly website with instant impact, impressive users and effectively positioning your brand.',
+		text: 'Harness the potential of your online presence with our specialized web development and UI/UX design services, ensuring that every click, scroll, and interaction reflects the essence of your brand identity.',
 		id: 1,
 	},
 	{
 		title: 'Game Development',
 		img: GameDev_Image,
-		text: 'Using strategic thinking to develop your brand positioning and identity, from logo and visuals, to engaging tone of voice.',
+		text: 'Enter a realm of endless possibilities. From concept ideation to flawless execution, we specialize in crafting games that captivate audiences, ensuring you remains at the forefront of digital entertainment.',
 		id: 2,
 	},
 	{
 		title: 'Interior Design',
 		img: InteriorDesign_Image,
-		text: 'Delivering effective digital strategies & eye-catching online marketing campaigns that earn attention, spark emotion & increase conversions',
+		text: 'We redefine interior spaces with a blend of creativity, comfort and functionality. From residential makeovers to commercial redesigns, we focus on creating environments that resonate with your identity.',
 		id: 3,
 	},
 ];

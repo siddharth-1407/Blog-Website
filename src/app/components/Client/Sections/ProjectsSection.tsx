@@ -6,7 +6,7 @@ import Styles from '@/app/Styles/projectCard.module.css';
 
 const ProjectsSection = () => {
 	return (
-		<section className='bg-[#242424] mx-auto px-6 py-6 sm:px-20 sm:py-12 md:px-16 xl:px-20 md:py-20 xl:py-24  3xl:py-28 5xl:px-48'>
+		<section className='bg-ThemeBackgroundDark mx-auto px-6 py-6 sm:px-20 sm:py-12 md:px-16 xl:px-20 md:py-20 xl:py-24  3xl:py-28 5xl:px-48'>
 			<div className='flex flex-col gap-16 pb-10 xl:gap-20'>
 				<div className='flex flex-col sm:flex-row sm:mb-16'>
 					<h2 className='text-ThemePrimary font-extrabold text-[20vh] sm:flex-1 sm:text-[15vh] lg:text-[20vh] 3xl:text-[25vh] xl:leading-snug 3xl:leading-tight '>

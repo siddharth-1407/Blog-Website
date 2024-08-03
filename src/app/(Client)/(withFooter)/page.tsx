@@ -11,7 +11,7 @@ export default async function Page() {
 	return (
 		<Fragment>
 			<Suspense fallback={null}>
-				<SmoothScroll />
+				{/* <SmoothScroll /> */}
 			</Suspense>
 			<main id='smooth-wrapper'>
 				{/* <Preloader_home /> */}

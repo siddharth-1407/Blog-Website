@@ -29,7 +29,7 @@ export default function WorkProjectLayout({ data }: { data: Project }) {
 				})}
 			</div>
 
-			<Carousel ImageArray={images2} />
+			<Carousel ImageArray={data?.content?.images} />
 		</div>
 	);
 }

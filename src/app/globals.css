@@ -4,7 +4,7 @@
 
 .scrollbar {
 	scrollbar-width: thin;
-	scrollbar-color: #f74ea1 rgba(218, 218, 219, 0.5);
+	scrollbar-color: #4EA5F7 rgba(218, 218, 219, 0.5);
 }
 
 .scrollbar::-webkit-scrollbar {
@@ -16,7 +16,7 @@
 }
 
 .scrollbar::-webkit-scrollbar-thumb {
-	background-color: #f74ea1;
+	background-color: #4EA5F7;
 	border-radius: 5px;
 }
 ::backdrop {

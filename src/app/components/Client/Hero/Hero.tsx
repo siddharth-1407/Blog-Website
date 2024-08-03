@@ -11,11 +11,11 @@ const Hero = () => {
 				</div>
 				<div className='text-center lg:text-start flex-1 flex flex-col justify-center gap-8 '>
 					<h1 className='text-ThemeSecondary sm:mx-auto sm:max-w-xl text-5xl sm:text-6xl lg:mx-0 lg:text-[5rem] xl:text-7xl font-bold 5xl:max-w-2xl 5xl:text-8xl'>
-						Rebel against boring
+						From pixel to places
 					</h1>
 					<p className='text-ThemeSecondary font-semibold mx-auto max-w-sm text-base lg:max-w-md lg:mx-0 lg:text-xl 5xl:max-w-xl 5xl:text-2xl'>
-						We’re a creative web design agency based in London that crafts beautiful and original websites for brands who{' '}
-						<span className='text-ThemePrimary '>refuse to blend in.</span>
+						Step into our Jaipur agency, where the allure of the Pink City inspires our digital and design endeavors.{' '}
+						<span className='text-ThemePrimary '>#refuse to blend in.</span>
 					</p>
 				</div>
 			</div>

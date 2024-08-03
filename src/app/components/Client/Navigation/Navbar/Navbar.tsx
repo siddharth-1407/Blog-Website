@@ -10,7 +10,7 @@ import { signOut, useSession } from 'next-auth/react';
 
 const NavLinks = [
 	{ title: 'Work', link: '/work', id: 1 },
-	{ title: 'Services', link: '/services', id: 2 },
+	{ title: 'Services', link: '#services', id: 2 },
 	{ title: 'Blog', link: '/blogs', id: 3 },
 	{ title: 'Contact', link: '/contact', id: 4 },
 	{ title: 'FAQ', link: '/faq', id: 5 },
@@ -25,7 +25,7 @@ const Sidebar = ({ open, setOpen }: { open: boolean; setOpen: Dispatch<SetStateA
 			variants={slide}
 			animate={open ? 'slideIn' : 'slideOut'}
 			initial={'initial'}
-			className='z-50 min-h-screen h-full w-full fixed bottom-full bg-pink-500'>
+			className='z-50 min-h-screen h-full w-full fixed bottom-full bg-blue-500 ' >
 			<div className='flex h-full flex-col pt-11 pb-10 px-6 lg:px-8 lg:py-14 3xl:p-20 5xl:p-16 '>
 				<motion.div
 					variants={logo}

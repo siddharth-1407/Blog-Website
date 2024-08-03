@@ -16,12 +16,16 @@ const config: Config = {
 			},
 			colors: {
 				//Important! :  the primary theme color works differently for mix blend mode. Use ThemePrimaryMixBlend to get the theme color in mix blend mode, its a green color!
-				ThemePrimary: '#f74ea1',
+				ThemePrimary: '#4ea5f7', //824ef7
 				ThemePrimaryHover: '#FD0D81',
 				ThemePrimaryMixBlend: '#08b15e',
 				ThemeSecondary: '#373737',
 				Text_blogHeading: '#232528',
 				Text_blogNormal: '#080708',
+				ThemeBackgroundDark: '#272727',
+				ThemeGradientFrom: '#30cfd0',
+				ThemeGradientVia: '#330867',
+				ThemeGradientTo: '#330867',
 			},
 		},
 	},

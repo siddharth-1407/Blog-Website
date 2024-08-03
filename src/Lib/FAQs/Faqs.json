@@ -1,28 +1,77 @@
 [
 	{
 		"id": 1,
-		"question": "What projects do you work on?",
-		"answer": "Our projects vary in size often dictated by the service types. Projects we love are rooted in deep strategic thinking that drives real business impact, always led by beautiful design.\n\nExample 1: Brand positioning > Tone of voice / Copywriting > Brand identity > Web design, UX and development > Ongoing SiteCare partnership.\n\nExample 2: You might have already been through a brand process and looking for  KOTA to bring it to life online through our web design and development process.\n\nNot sure what you need? We are always <a href='/' class='text-ThemePrimary font-bold'>happy to chat</a>."
+		"question": "What is the typical process for website development with your agency?",
+		"answer": "Our website development process begins with a detailed consultation to understand your goals. From there, we proceed with strategic planning, design mock-ups, development, client feedback loops, and rigorous testing. This systematic approach ensures a seamless and tailored website."
 	},
 	{
 		"id": 2,
-		"question": "What projects do you work on?",
-		"answer": "Our projects vary in size often dictated by the service types. Projects we love are rooted in deep strategic thinking that drives real business impact, always led by beautiful design.\n\nExample 1: Brand positioning > Tone of voice / Copywriting > Brand identity > Web design, UX and development > Ongoing SiteCare partnership.\n\nExample 2: You might have already been through a brand process and looking for  KOTA to bring it to life online through our web design and development process.\n\nNot sure what you need? We are always <a href='/' class='text-ThemePrimary font-bold'>happy to chat</a>."
-	},
-
-	{
-		"id": 2,
-		"question": "How long does an average project take?",
-		"answer": "A web design and build project can last around 12-14 weeks, whereas brand into web and marketing deliverables into a launch campaign can take 6 months or more. There are always ways to consider business objectives (such as phased launches) so even if your timescales don’t work with this, it’s always worth reaching out."
+		"question": "How long does it take to develop a website?",
+		"answer": "Timelines vary based on project complexity and requirements. Simple websites may take a few weeks, while more intricate projects can extend to several months. We collaborate closely with clients to establish realistic timelines, ensuring both efficiency and quality."
 	},
 	{
-		"id": 2,
-		"question": "Can you start straight away?",
-		"answer": "The start of the project can often involve work on the client side to get into an agreement, gather data and begin answering questionnaires. There will also be general onboarding such as project management and the project schedule. We will also have an internal kick-off to ensure the team is aligned. The client kick-off is the first milestone, and this is often anywhere from 2-4 weeks from the signed agreement."
+		"id": 3,
+		"question": "What technologies do you use for website development?",
+		"answer": "We leverage a range of technologies, including HTML, CSS, JavaScript, and popular content management systems (CMS) like WordPress and Drupal. Our technology stack is flexible, allowing us to choose the best tools for your specific website requirements."
 	},
 	{
-		"id": 2,
-		"question": "I love your work but I can’t see experience in my sector.",
-		"answer": "We deliberately adapt and change our portfolio to keep our website exciting and relevant.\n\nOver 9 years we have been fortunate to work with a range of sectors and brands over both B2B and B2C. We pride ourselves on not being focused on one industry and bringing our experience from multiple industries to each brief. This is something that sets KOTA apart."
+		"id": 4,
+		"question": "Can you design custom features for a website based on unique business needs?",
+		"answer": "Absolutely. We pride ourselves on delivering tailored solutions. If your business requires custom features or functionalities, we work closely with you to understand your unique needs and develop bespoke solutions that align with your goals."
+	},
+	{
+		"id": 5,
+		"question": "How do you handle website maintenance and updates post-launch?",
+		"answer": "ur commitment extends beyond launch. We offer ongoing website maintenance and support plans, ensuring your site remains secure, up-to-date, and optimized. From fixing bugs to implementing new features, we provide comprehensive post-launch services tailored to your needs."
+	},
+	{
+		"id": 6,
+		"question": "What types of games do you specialize in developing?",
+		"answer": "Our expertise covers a wide range of game genres, from mobile games, PC games, slot games, and console gaming experiences to immersive virtual reality (VR) and augmented reality (AR) applications. We spealised in making all the differnt gerne of game including but not limited to 3d games, 2d games, puzzle, top down, shooters, racing, farming, resource management games, FPS games, action-adventures games, fighiting games, battle games, online multiplayer games."
+	},
+	{
+		"id": 7,
+		"question": "How do you approach the initial concept and design phase of game development?",
+		"answer": "We start by collaborating closely with clients to understand their vision. From there, we create detailed concept art, storyboards, and game design documents to shape the foundation of the game."
+	},
+	{
+		"id": 8,
+		"question": "What technologies and platforms do you use for game development?",
+		"answer": "We leverage industry-leading technologies and engines such as Unity and Unreal Engine to develop games for various platforms, including PC, consoles, mobile devices, and emerging technologies like VR and AR. We use photoshop, blender and maya to get the art side done for the game."
+	},
+	{
+		"id": 9,
+		"question": "How do you ensure the scalability of games for different devices and resolutions?",
+		"answer": "Scalability is a key consideration in our development process. We employ responsive design principles and optimization techniques to ensure that games perform seamlessly across a variety of devices and screen resolutions."
+	},
+	{
+		"id": 10,
+		"question": "What testing processes do you have in place to ensure the quality and stability of games?",
+		"answer": "Rigorous testing is an integral part of our development process. We conduct thorough quality assurance testing, including gameplay testing, bug fixing, and optimization, to ensure that games meet the highest standards of quality and stability."
+	},
+	{
+		"id": 11,
+		"question": "What types of interior design services does your agency offer?",
+		"answer": "Our agency offers a comprehensive range of interior design services, including residential and commercial design, space planning, furniture selection, color consultations, and custom design solutions tailored to your unique needs."
+	},
+	{
+		"id": 12,
+		"question": "How do you approach the initial consultation and design process for interior styling?",
+		"answer": "We begin with a detailed consultation to understand your vision, preferences, and functional needs. From there, our expert team collaborates to create concept boards, mood boards, and detailed design plans to bring your vision to life."
+	},
+	{
+		"id": 13,
+		"question": "Can you provide 3D visualizations or renderings to help clients visualize the proposed interior design before implementation?",
+		"answer": "Yes, we offer 3D visualizations and renderings as part of our design presentations. This allows clients to visualize the proposed interior design in detail, making informed decisions and ensuring alignment with their vision."
+	},
+	{
+		"id": 14,
+		"question": "How do you approach privacy considerations in interior design, especially for residential projects?",
+		"answer": "Privacy is a crucial aspect of residential design. We carefully plan layouts, consider window treatments, and incorporate design elements to ensure that private spaces are thoughtfully designed, creating a sense of comfort and security."
+	},
+	{
+		"id": 15,
+		"question": "What steps do you take to ensure a smooth execution of the interior design plan?",
+		"answer": "We meticulously plan and coordinate the execution phase. Our team collaborates with contractors, artisans, and suppliers, overseeing every detail to ensure that the design plan is implemented seamlessly and meets the highest standards of craftsmanship."
 	}
 ]
