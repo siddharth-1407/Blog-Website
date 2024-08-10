@@ -73,6 +73,7 @@ const Logo = {
 		opacity: 1,
 	},
 };
+
 const NavItem = {
 	initial: {
 		opacity: 0,
@@ -83,6 +84,7 @@ const NavItem = {
 		opacity: 1,
 	},
 };
+
 const navListAnime = {
 	initial: {
 		opacity: 1,
@@ -98,10 +100,12 @@ const navListAnime = {
 		},
 	},
 };
+
 const NavLinks = [
 	{ title: 'Work', path: '/work' },
 	{ title: 'Contact', path: '/contact' },
 ];
+
 const Header = () => {
 	const { data: session, status } = useSession();
 	const pathname = usePathname();
@@ -122,6 +126,7 @@ const Header = () => {
 			window.document.documentElement.scrollTop = scrollPos;
 		}
 	}, [navOpen]);
+
 	useEffect(() => {
 		const handleEscClose = (e: KeyboardEvent) => {
 			if (e.key === 'Escape') {
@@ -215,15 +220,15 @@ const Header = () => {
 								<motion.span
 									variants={anime}
 									animate={navOpen ? 'open' : 'close'}
-									className={`w-10 h-[0.2rem] lg:h-[0.28rem] origin-center bg-white`}></motion.span>
+									className={`w-10 h-[0.2rem] lg:h-[0.25rem] origin-center bg-white`}></motion.span>
 								<motion.span
 									variants={anime2}
 									animate={navOpen ? 'open' : 'close'}
-									className={`w-10 h-[0.188rem] lg:h-[0.28rem] bg-white `}></motion.span>
+									className={`w-10 h-[0.188rem] lg:h-[0.25rem] bg-white `}></motion.span>
 								<motion.span
 									variants={anime3}
 									animate={navOpen ? 'open' : 'close'}
-									className=' w-8 h-[0.2rem] lg:h-[0.28rem] bg-white origin-center'></motion.span>
+									className=' w-8 h-[0.2rem] lg:h-[0.25rem] bg-white origin-center'></motion.span>
 							</div>
 						</motion.button>
 					</div>

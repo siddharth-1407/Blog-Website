@@ -30,7 +30,7 @@ const FilterProjects = ({ filter, setFilter }: Props) => {
 						<motion.li key={category.id} variants={List} initial={'initial'} animate={'appear'}>
 							<button
 								onClick={() => setFilter(category.filter)}
-								className={`2xl:px-6 2xl:py-3 xl:px-4 xl:py-2 5xl:px-4 5xl:py-3  ${
+								className={`2xl:px-6 2xl:py-3 xl:px-4 xl:py-2 5xl:px-4 5xl:py-3 rounded-xl ${
 									filter === category.filter ? 'border-ThemePrimary' : 'border-transparent'
 								}  border-2 text-ThemePrimary font-extrabold text-[min(1.4vw,1.25rem)] 5xl:text-2xl `}>
 								{category.title}

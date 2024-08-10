@@ -90,7 +90,7 @@ export default function CallToActionModel({ model, setModel }: { model: boolean;
 											onClick={copyToClipboard}
 											onMouseLeave={handleMouseLeave}
 											className='text-[clamp(1.5rem,6vw,2.5rem)] md:text-[clamp(1.8rem,3.5vw,2.5rem)] 4xl:text-5xl font-bold text-ThemePrimary'>
-											hello@kota.co.uk
+											abc@xyz.com
 										</p>
 										<span
 											ref={copyIndicator}
@@ -103,12 +103,12 @@ export default function CallToActionModel({ model, setModel }: { model: boolean;
 								<div>
 									<ul className='flex flex-col gap-3 text-[clamp(1.5rem,5vw,2.2rem)] md:text-[clamp(1.8rem,3.5vw,2rem)] 4xl:text-4xl'>
 										<li className='flex flex-wrap gap-x-2 items-center'>
-											<strong className='text-Text_blogHeading leading-tight '>London:</strong>
-											<span className='text-ThemePrimary leading-tight font-bold'>+44(0) 20398745132</span>
+											<strong className='text-Text_blogHeading leading-tight '>Mumbai:</strong>
+											<span className='text-ThemePrimary leading-tight font-bold'>+91 xxxxxxxxxx</span>
 										</li>
 										<li className='flex flex-wrap gap-x-2 items-center'>
-											<strong className='text-Text_blogHeading '>New York:</strong>
-											<span className='text-ThemePrimary font-bold'>+1 20398745132</span>
+											<strong className='text-Text_blogHeading '>New Delhi</strong>
+											<span className='text-ThemePrimary font-bold'>+91 XXXXXXXXXX</span>
 										</li>
 									</ul>
 								</div>

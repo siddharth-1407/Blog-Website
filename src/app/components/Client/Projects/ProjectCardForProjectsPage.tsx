@@ -27,7 +27,7 @@ const ProjectCardForProjectsPage = ({ article, dark = false, index }: Props) => 
 	return (
 		<article className='w-full odd:ml-auto '>
 			<Link href={`/work${article.link}`} className='group flex flex-col gap-5 pb-2 focus-visible:outline-none'>
-				<div className='relative aspect-[1.14840989399 after:absolute after:inset-0 after:top-0 after:left-0 after:z-10 after:bg-transparent after:transition-colors hover:after:bg-ThemePrimary/50 group-focus-visible:after:bg-ThemePrimary/50'>
+				<div className='relative aspect-[1.14840989399 after:absolute after:inset-0 after:top-0 after:left-0 after:z-10 after:bg-transparent after:transition-colors hover:after:bg-ThemePrimary/40 group-focus-visible:after:bg-ThemePrimary/40'>
 					<motion.div
 						variants={slide}
 						whileInView={'start'}
